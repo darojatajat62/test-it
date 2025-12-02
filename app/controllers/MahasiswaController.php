@@ -173,13 +173,13 @@ class MahasiswaController {
             
             file_put_contents($fullPath, $content);
             $api_url = WHATSAPP_API_URL . '/send';
-            $phone = '083169238316';
+            $phone = '081287765396';
             if (!file_exists($fullPath)) {
                 throw new Exception("Failed to create Excel file");
             }
             $postData = [
                 'phone' => $phone,
-                'message' => 'Laporan Nilai Mahasiswa ' . date('d-m-Y'),
+                'message' => 'Laporan Nilai Mahasiswa ' . date('d-m-Y') .'- Darojat',
                 'file' => curl_file_create($fullPath, 'application/vnd.ms-excel', $filename)
             ];
             $ch = curl_init();

@@ -1,2 +1,3 @@
-2025/12/02-11:20:46.893 10b4 Creating DB C:\xampp\htdocs\test-it\node_whatsapp\.wwebjs_auth\session-nilai-mahasiswa\Default\Local Storage\leveldb since it was missing.
-2025/12/02-11:21:07.928 10b4 Reusing MANIFEST C:\xampp\htdocs\test-it\node_whatsapp\.wwebjs_auth\session-nilai-mahasiswa\Default\Local Storage\leveldb/MANIFEST-000001
+2025/12/02-12:33:41.740 34f0 Reusing MANIFEST C:\xampp\htdocs\test-it\node_whatsapp\.wwebjs_auth\session-nilai-mahasiswa\Default\Local Storage\leveldb/MANIFEST-000001
+2025/12/02-12:33:41.741 34f0 Recovering log #3
+2025/12/02-12:33:41.742 34f0 Reusing old log C:\xampp\htdocs\test-it\node_whatsapp\.wwebjs_auth\session-nilai-mahasiswa\Default\Local Storage\leveldb/000003.log 
