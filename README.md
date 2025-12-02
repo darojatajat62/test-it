@@ -31,44 +31,44 @@ npm
 
 📦 Instalasi
 1. Clone Project
-## cd htdocs
-## git clone https://github.com/username-anda/nama-repo.git
-## cd nama-repo
+cd htdocs
+git clone https://github.com/username-anda/nama-repo.git
+cd nama-repo
 
 2. Konfigurasi .env
-## cp .env.example .env
-## Isi:
-## DB_HOST=localhost
-## DB_NAME=nama_database
-## DB_USER=root
-## DB_PASS=
-## BASE_URL=http://localhost/nama-repo/public/
-## APP_DEBUG=true
-## WHATSAPP_API_URL=http://localhost:3000/
-## ESSION_LIFETIME=1440
-## SESSION_SECURE=false
-## SESSION_HTTPONLY=true
+cp .env.example .env
+Isi:
+DB_HOST=localhost
+DB_NAME=nama_database
+DB_USER=root
+DB_PASS=
+BASE_URL=http://localhost/nama-repo/public/
+APP_DEBUG=true
+WHATSAPP_API_URL=http://localhost:3000/
+SESSION_LIFETIME=1440
+SESSION_SECURE=false
+SESSION_HTTPONLY=true
 
 3. Migration & Seeder
-## php run_migration.php
+php run_migration.php
 
 4. Instalasi Node.js WhatsApp Gateway
-## cd node_whatsapp
-## npm install
-## npm start
+cd node_whatsapp
+npm install
+npm start
 
 
-## WhatsApp Server:
-## http://localhost:3000
+WhatsApp Server:
+http://localhost:3000
 
 
 🚀 Menjalankan Aplikasi
-## Jalankan WhatsApp Gateway
-## npm start
+Jalankan WhatsApp Gateway
+npm start
 
 
 🚀 Akses aplikasi PHP
-## http://localhost/nama-repo/public/
+http://localhost/nama-repo/public/
 
 
 
