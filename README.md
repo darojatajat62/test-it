@@ -58,10 +58,14 @@ WHATSAPP_API_URL=http://localhost:3000/
 SESSION_LIFETIME=1440
 SESSION_SECURE=false
 SESSION_HTTPONLY=true
+
+
 3. Migration & Seeder
 bash
 Copy code
 php run_migration.php
+
+
 4. Instalasi Node.js WhatsApp Gateway
 bash
 Copy code
@@ -69,8 +73,8 @@ cd node_whatsapp
 npm install
 npm start
 WhatsApp Server:
-
 http://localhost:3000
+
 
 🚀 Menjalankan Aplikasi
 Jalankan WhatsApp Gateway
@@ -80,13 +84,10 @@ npm start
 Akses aplikasi PHP
 http://localhost/nama-repo/public/
 
+
 🎯 Fitur
 Export Excel
-
 Kirim Excel via WhatsApp
-
 QR Code WhatsApp
-
 Status WhatsApp (Connected/Disconnected)
-
 PHP Native MVC + Node.js
