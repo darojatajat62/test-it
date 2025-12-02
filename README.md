@@ -12,13 +12,13 @@ PHP NATIVE MVC DAN NODE JS**.
 ## 📐 Wireframe
 
 ### Tampilan tidak terkoneksi whastapp
-![Warframe](https://raw.githubusercontent.com/darojatajat62/backend-tes/main/images/mockup1.png)
+![Warframe](https://raw.githubusercontent.com/darojatajat62/test-it/main/images_github/disconnect.jpeg)
 
 ### Sudah terkoneksi whastapp
-![Warframe](https://raw.githubusercontent.com/darojatajat62/backend-tes/main/images/mockup2.png)
+![Warframe](https://raw.githubusercontent.com/darojatajat62/test-it/main/images_github/connect.jpeg)
 
 ### Server Whastapp
-![Warframe](https://raw.githubusercontent.com/darojatajat62/backend-tes/main/images/mockup3.png)
+![Warframe](https://raw.githubusercontent.com/darojatajat62/test-it/main/images_github/server-whastapp.jpeg)
 
 ---
 .
@@ -43,7 +43,7 @@ DB_USER=root
 DB_PASS=
 BASE_URL=http://localhost/nama-repo/public/
 APP_DEBUG=true
-WHATSAPP_API_URL=http://localhost:3000/send-message
+WHATSAPP_API_URL=http://localhost:3000/
 SESSION_LIFETIME=1440
 SESSION_SECURE=false
 SESSION_HTTPONLY=true
