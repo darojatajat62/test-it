@@ -173,7 +173,7 @@ class MahasiswaController {
             
             file_put_contents($fullPath, $content);
             $api_url = WHATSAPP_API_URL . '/send';
-            $phone = '081287765396';
+            $phone = '0812xxxxxxxxxxxx';
             if (!file_exists($fullPath)) {
                 throw new Exception("Failed to create Excel file");
             }
